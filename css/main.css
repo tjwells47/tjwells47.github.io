@@ -312,6 +312,10 @@ p {
   border-bottom: 1px solid #131516;
 }
 
+.resume {
+  display: inline-block; width: 60%; word-wrap: break-word; overflow-wrap: break-word;
+}
+
 h3 {
   font-size: 1.7em;
 }
@@ -321,4 +325,19 @@ h3 {
   width: 230px;
   border-radius: 10px;
   float: right;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #headshot {
+        float: left;
+        margin-bottom: 20px;
+        display: block;
+        width: 150px;
+        margin-top: -20px;
+    }
+
+    .resume {
+      display: block; width: 100%; word-wrap: break-word; overflow-wrap: break-word;
+    }
 }
