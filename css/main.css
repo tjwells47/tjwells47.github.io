@@ -343,10 +343,14 @@ h3 {
 }
 
 
-@media only screen and (max-width: 600) {
+@media only screen and (max-width: 600px) {
   .container {
-    width: 90%;
+    max-width: 80% !important;
     margin: 0 auto;
+  }
+
+  .heading {
+    width: 80%;
   }
 }
 
