@@ -341,3 +341,14 @@ h3 {
       display: block; width: 100%; word-wrap: break-word; overflow-wrap: break-word;
     }
 }
+
+footer {
+  display: inline-block;
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  color: #131516;
+  margin-top: 60px;
+}
