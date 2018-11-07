@@ -285,3 +285,40 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+  font-family: 'Domine', serif;
+  color: #131516;
+  font-weight: regular;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  float: left;
+  clear: left;
+  margin-top: .25em;
+}
+
+.heading {
+  margin: 40px auto;
+  padding-bottom: 20px;
+  width: 60%;
+  border-bottom: 1px solid #131516;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+
+#headshot{
+  width: 230px;
+  border-radius: 10px;
+  float: right;
+}
